@@ -37,20 +37,20 @@ body {
     padding: 7%;
 }
 
-.two-column h1 {
+.h1 {
     font-size: 4.5vw;
     color: grey;
 }
 
-.two-column h2 {
+.h2 {
     font-size: 3vw;
 }
 
-.two-column h3 {
+.h3 {
     font-size: 2vw;
 }
 
-.two-column img {
+img {
     width: 100%;
     border-radius: 10px;
 }
@@ -88,15 +88,11 @@ body {
 }
 
 @media screen and (max-width:700px) {
-    /* Responsive layout */
-    /* la clase two-column ha de tener ancho de 100% */
-    /* la clase four-column ha de tener ancho de 50% */
-    /* la clase h1 ha de tener tamaño de fuente de 6vw */
-    /* la clase h2 ha de tener tamaño de fuente de 5vw */
-    /* la clase h3 ha de tener tamaño de fuente de 4vw */
-    /* ...otros ajustes... */
     .two-column {
         width: 100%;
+    }
+    .four-column {
+        width: 50%;
     }
     .h1 {
         font-size: 6vw;
@@ -107,7 +103,10 @@ body {
     .h3 {
         font-size: 4vw;
     }
-    .four-column {
-        width: 50%;
+    .header h1 {
+        font-size: 8vw;
+    }
+    .header h2 {
+        font-size: 5vw;
     }
 }
